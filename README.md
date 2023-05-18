@@ -17,6 +17,7 @@ End of the program
 ## PROGRAM
 
 # models.py
+```
 from django.db import models
 from django.contrib import admin
 
@@ -37,6 +38,7 @@ class Employee (models.Model):
 
 class EmployeeAdmin(admin.ModelAdmin):
     list_display=('emp_id','ename','post','salary')
+```
 
 # admin.py
 ```
@@ -50,10 +52,10 @@ admin.site.register(Employee,EmployeeAdmin)
 ## OUTPUT
 
 # Client output:
-![OUTPUT](./OUT2.png)
+![OUTPUT](OUT2.png)
 
 # Server Output:
-![OUTPUT](./client.png)
+![OUTPUT](client.png)
 
 ## RESULT
 Program executed successfully.
